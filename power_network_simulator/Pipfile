@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+pandapower = "==2.7.0"
+events = "==0.4"
+numba = "==0.55.1"
+numpy = "==1.21.5"
+pandas = "==1.4.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
